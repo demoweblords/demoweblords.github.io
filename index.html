@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<!-- <base href="/"> -->
 
-	<title>OptimizedHTML 4</title>
+	<title>Создание сайтов "Web Lords"</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,18 +23,18 @@
 	<!-- Custom Browsers Color End -->
 
 	<link rel="stylesheet" href="css/main.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Volkhov:400,700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
 	<header class="header">
-		<div class="container container-lg">
+		<div class="overlay"></div>
+		<div class="container container-lg header-top">
 
 			<div class="top-line">
 				<a class="logo" href="#">
-					<img src="img/logo.png" alt="Web lords" class="img-responsive">
+					<img src="img/logo.png" alt="Web lords" class="logo-img img-responsive">
 				</a>
 				<nav class="navigation">
 					<ul>
@@ -48,11 +48,18 @@
 				<div class="phone">
 					<a href="tel:+79037742508">+7(903)774-25-08</a>
 				</div>
+				<div class="mobile-menu-button">
+					<button class="hamburger hamburger--spin" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
 			</div>
 
 		</div>
 
-		<div class="showcase" style="background-image: url(img/bg-first.jpg);">
+		<div class="showcase" style="background-image: url(img/header-bg.svg);">
 			<div class="container">
 
 				<div class="showcase-content">
@@ -72,10 +79,10 @@
 			<h2 class="section-title">//Что мы предлагаем?//</h2>
 
 			<div class="row">
-				<div class="col-md-6">
-					<img src="img/services.jpg" alt="Что мы предлагаем?" class="img-responsive">
+				<div class="col-lg-6">
+					<img src="img/services.jpg" alt="Что мы предлагаем?" class="img-responsive services-img">
 				</div>
-				<div class="col-md-6">
+				<div class="col-lg-6">
 					<ul class="services-list">
 						<li class="services-list__item">
 							<h3><a href="#">Создание сайтов под ключ</a></h3>
@@ -83,7 +90,7 @@
 						</li>
 						<li class="services-list__item">
 							<h3><a href="#">Доработка вашего сайта</a></h3>
-							<p>/* Улучшение сайта необходимо производить время от времени. Веб-сайт как и любой другой продукт имеет свойства теряет актуальность */</p>
+							<p>Улучшение сайта необходимо производить время от времени. Веб-сайт как и любой другой продукт имеет свойства теряет актуальность</p>
 						</li>
 						<li class="services-list__item">
 							<h3><a href="#">Продвижение</a></h3>
@@ -131,7 +138,7 @@
 							</ul>
 							<div class="project-deadline">
 								<p>От <span class="accent">7000</span> рублей</p>
-								<p>Разработка <span class="accent">2-3 дня</span></p>
+								<p>Разработка <span class="accent">2-3</span> дня</p>
 							</div>
 							<div class="project-btn">
 								<a href="#" class="btn">Заказать</a>
@@ -167,7 +174,7 @@
 							</ul>
 							<div class="project-deadline">
 								<p>От <span class="accent">10 000</span> рублей</p>
-								<p>Разработка <span class="accent">4-7 дней</span></p>
+								<p>Разработка <span class="accent">4-7</span> дней</p>
 							</div>
 							<div class="project-btn">
 								<a href="#" class="btn">Заказать</a>
@@ -203,7 +210,7 @@
 							</ul>
 							<div class="project-deadline">
 								<p>От <span class="accent">13 000</span> рублей</p>
-								<p>Разработка <span class="accent">4-7 дней</span></p>
+								<p>Разработка <span class="accent">4-7</span> дней</p>
 							</div>
 							<div class="project-btn">
 								<a href="#" class="btn">Заказать</a>
@@ -239,7 +246,7 @@
 							</ul>
 							<div class="project-deadline">
 								<p>От <span class="accent">15 000</span> рублей</p>
-								<p>Разработка <span class="accent">4-7 дней</span></p>
+								<p>Разработка <span class="accent">4-7</span> дней</p>
 							</div>
 							<div class="project-btn">
 								<a href="#" class="btn">Заказать</a>
@@ -331,6 +338,8 @@
 					<div class="rework-item">
 						<p class="lead">Ваш сайт выглядит как в 2008? Клиенты почти сразу уходят с вашей страницы? Падают продажи?</p>
 						<h4 class="slogan accent">Пора обновляться!</h4>
+						<p class="text">Наши специалисты проанализируют ваш сайт и выявят проблемы, которые отпугивают ваших клиентов.</p>
+						<p class="text">Мы повысим конкурентноспособность вашего сайта и увеличим конверсию посещений в заказы.</p>
 						<p class="text">Ваш сайт - это лицо вашего бизнеса, мы сделаем так, чтобы люди хотели сотрудничать с вами!</p>
 					</div>
 				</div>
@@ -348,49 +357,49 @@
 			<div class="process-items">
 				<div class="row">
 
-					<div class="col-md-6">
+					<div class="col-sm-6">
 						<div class="process-item">
 							<img src="img/process/functionality.svg" alt="функционал" class="icon">
 							<h4>Увеличим функционал</h4>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-sm-6">
 						<div class="process-item">
 							<img src="img/process/cms-2.svg" alt="cms" class="icon">
 							<h4>Установим или заменим cms</h4>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-sm-6">
 						<div class="process-item">
 							<img src="img/process/logo.png" alt="logo" class="icon">
 							<h4>Создадим новый логотип</h4>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-sm-6">
 						<div class="process-item">
 							<img src="img/process/help.svg" alt="help" class="icon">
 							<h4>Справимся с любым вашим заданием</h4>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-sm-6">
 						<div class="process-item">
 							<img src="img/process/design.svg" alt="design" class="icon">
 							<h4>Разработаем новый дизайн и интерфейс</h4>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-sm-6">
 						<div class="process-item">
 							<img src="img/process/responsive-2.svg" alt="функционал" class="icon">
 							<h4>Разработаем мобильную версию сайта</h4>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-sm-6">
 						<div class="process-item">
 							<img src="img/process/add-page.svg" alt="add-page" class="icon">
 							<h4>Добавим новые страницы</h4>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-sm-6">
 						<div class="process-item">
 							<img src="img/process/refresh.svg" alt="refresh" class="icon">
 							<h4>Обновим контент</h4>
@@ -600,7 +609,7 @@
 				<div class="col-md-4">
 					<div class="footer-copy">
 						<a href="#" class="logo">
-							<img src="img/logo-orange.png" alt="web-lords" class="img-responsive">
+							<img src="img/logo-orange.png" alt="web-lords" class="logo-img img-responsive">
 						</a>
 						<p class="copy-text">© 2019 Web-Lords</p>
 					</div>
